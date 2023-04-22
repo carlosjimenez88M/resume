@@ -1,0 +1,58 @@
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+\fontdir[fonts/]
+
+\colorlet{awesome}{awesome-red}
+
+\setbool{acvSectionColorHighlight}{true}
+
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+\name{Daniel}{Jiménez M.}
+\position{Machine Learning Engineer{\enskip\cdotp\enskip} Data Scientist}
+\address{Colombia}
+
+\mobile{(+56) 3228169956}
+\email{danieljimenez88m@gmail.com}
+\homepage{www.danieljimenezm.com}
+\github{carlosjimenez88M}
+\linkedin{djimenezm}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Daniel Jiménez M.~~~·~~~Résumé}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{resume/summary.tex}
+\input{resume/skills.tex}
+\input{resume/experience.tex}
+%\input{resume/honors.tex}
+\input{resume/presentation}
+%\input{resume/writing.tex}
+\input{resume/committees.tex}
+\input{resume/education.tex}
+\input{resume/extracurricular.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
